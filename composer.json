@@ -1,0 +1,21 @@
+{
+    "name": "recuperacion/api",
+    "description": "API para operaciones matemáticas básicas.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Recuperacion\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Muñoz",
+            "email": "dmunozp2@miumg.edu.gt"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.11",
+        "slim/psr7": "^1.7"
+    }
+}
